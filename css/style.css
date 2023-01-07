@@ -1,0 +1,99 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('components/banner.css');
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner .container {
+  margin: auto;
+  width: 900px;
+}
+
+.button {
+  color: white;
+  background-color: rgb(13, 232, 46);
+  border-radius: 40px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.description {
+  margin: auto;
+  width: 900px;
+}
+
+.description h2 {
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.step {
+  width: 200px;
+  padding: 25px;
+  border: .5px solid lightgray;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px gainsboro;
+  text-align: center;
+}
+
+.step-image { /* how to make it just nice in the image box??? */
+  height: 60px;
+  width: 80px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 30px
+}
+
+.footer {
+  background-color: rgb(50, 44, 44);
+  text-align: center;
+  padding: 50px;
+}
+
+.links {
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+
+.links a {
+  font-size: 40px;
+  margin-top: 30px;
+  padding: 5px 10px;
+  color: rgba(4, 253, 4, 0.913);
+}
+
+.fas {
+  color: red;
+}
